@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel:400,700,900');
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cinzel sans-serif;
+}
+.container{
+  margin:0 !important;
+  width:100% !important;
+  position:absolute;
+  left:0;
+  top:200px;
+  padding: 10px;
+}
+.poloDropdown{
+  display:none;
+}
+
+.lifestyleDropdown{
+  display:none;
+}
+
+header {
+  text-align: center;
+  }
+header img{
+  margin: 30px 0px;
+}
+.navbar .container-fluid .navbar-header .resize{
+  padding-right: 110px;
+  
+  font-size: 25px;
+}
+.navbar .container-fluid .collapse .pull-right{
+  margin: 15px 0px;
+}
+.container .row .col-lg-2 img{
+  width:100%;
+  height:auto;
+}
+.container .row .col-lg-2 ul{
+  margin: 5px 15px;
+}
+
+.container .row .col-lg-2 ul li{
+  list-style: none;
+  margin: 10px 0px;
+}
+.container .row .col-lg-2 ul li a{
+  color:black;
+}
